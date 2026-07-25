@@ -1,18 +1,33 @@
 body {
-  background-color: Orange;
+  background:linear-gradient(to bottom,orange, gray);
 
 .container{
     width: 90%;
     margin: 35px auto;
     background-color: #5A5A5A;
     padding: 25px;
-    border-radius: 60px 0px 60px 0px;
+    border-radius: 60px 0px 60px 00px;
 }
+
+
+img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 4px solid orange;
+}
+
 
 .name{
     text-align: center;
     color: white;
 
+}
+
+.sub{
+color: white;
 }
 
 .intro{
@@ -21,17 +36,44 @@ body {
  border:3px 
  solid Orange;
  padding: 25px;
- border-radius: 50px 00px 50px 00px;
+ border-radius: 50px 00px 00px 00px;
 }
 
-
-img{
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin: auto;
-    border-radius: 50%;
+.about{
+ color: white;
+ text-align: center;
+ border:3px 
+ solid Orange;
+ padding: 25px;
+ border-radius: 00px 00px 00px 00px;
 }
 
+.skills{
+ color: white;
+ border:3px 
+ solid Orange;
+ padding: 25px;
+ border-radius: 00px 00px 00px 00px;
 }
 
+.project{
+ color: white;
+ border:3px 
+ solid Orange;
+ padding: 25px;
+ border-radius: 00px 00px 60px 00px;
+}
+
+.con{
+color: white;
+text-align: center;
+}
+
+.tab{
+ color: white;
+ border: 3px
+ solid Orange;
+ padding: 5px;
+ margin: auto;
+ 
+}
