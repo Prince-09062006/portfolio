@@ -9,6 +9,16 @@ body {
     border-radius: 60px 0px 60px 00px;
 }
 
+.box{
+    border:3px
+    solid Orange;
+    padding: 25px;
+    border-radius: 60px 0px 60px 00px;
+    border-style: dotted;
+    birder-width: thick;
+
+
+}
 
 img{
     width: 250px;
@@ -21,7 +31,7 @@ img{
 
 
 .name{
-    text-align: center;
+    text-align:center;
     color: white;
 
 }
@@ -33,7 +43,7 @@ color: white;
 .intro{
  color: white;
  text-align: center;
- border:3px 
+ border:3px
  solid Orange;
  padding: 25px;
  border-radius: 50px 00px 00px 00px;
@@ -42,7 +52,7 @@ color: white;
 .about{
  color: white;
  text-align: center;
- border:3px 
+ border:3px
  solid Orange;
  padding: 25px;
  border-radius: 00px 00px 00px 00px;
@@ -50,7 +60,7 @@ color: white;
 
 .skills{
  color: white;
- border:3px 
+ border:3px
  solid Orange;
  padding: 25px;
  border-radius: 00px 00px 00px 00px;
@@ -58,7 +68,7 @@ color: white;
 
 .project{
  color: white;
- border:3px 
+ border:3px
  solid Orange;
  padding: 25px;
  border-radius: 00px 00px 60px 00px;
@@ -75,5 +85,14 @@ text-align: center;
  solid Orange;
  padding: 5px;
  margin: auto;
- 
+
 }
+}
+
+
+/*background-color:Tomato
+ border-style: dotted;
+ birder-width: thick;
+  background-color: #5A5A5A;
+*/
+
