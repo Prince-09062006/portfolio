@@ -1,32 +1,60 @@
 body {
-  background:linear-gradient(to bottom,orange, gray);
+  background:linear-gradient(to bottom, #00B050, #292929);
+  font-family: "Noto Serif SemiBold", Serif, SemiBold;
+     }
 
 .container{
     width: 90%;
     margin: 35px auto;
-    background-color: #5A5A5A;
+    background-color: #292929;
     padding: 25px;
-    border-radius: 60px 0px 60px 00px;
-}
-
-.box{
-    border:3px
-    solid Orange;
-    padding: 25px;
-    border-radius: 60px 0px 60px 00px;
-    border-style: dotted;
-    birder-width: thick;
+    border-radius: 90px 0px 90px 00px;
+    border-color: white;
+    border-style: solid;
+    border-width: thick;
 
 
 }
+
+.container2{
+    width: 90%;
+    margin: 35px auto;
+    background-color: #00B050;
+    padding: 25px;
+    border-radius: 90px 0px 90px 00px;
+    border-color: #292929;
+    border-style: solid ;
+    border-width: thick;
+}
+
+.container3{
+    width: 90%;
+    margin: 35px auto;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 25px;
+    border-radius: 90px 0px 90px 00px;
+    border-color: #00B050;
+    border-style: solid;
+    border-width: thick;
+}
+
+/*
+.v-line{
+border-left: 2px solid #000000;
+height: 100px;
+display: inline_block;
+margin 015px
+}
+
+*/
 
 img{
     width: 250px;
     height: 250px;
     display: block;
     margin: auto;
-    border-radius: 50%;
-    border: 4px solid orange;
+    border-radius: 20%;
+    border: 4px solid white;
 }
 
 
@@ -40,59 +68,137 @@ img{
 color: white;
 }
 
-.intro{
- color: white;
- text-align: center;
- border:3px
- solid Orange;
- padding: 25px;
- border-radius: 50px 00px 00px 00px;
+.sub1{
+color: #00B050;
 }
 
-.about{
- color: white;
+.sub2{
+color:  white;
+}
+
+
+.intro{
+ color: #00B050;
  text-align: center;
- border:3px
- solid Orange;
- padding: 25px;
- border-radius: 00px 00px 00px 00px;
+}
+
+
+.line{
+    color: white;
+}
+
+
+.about{
+ color: #00B050;
+ text-align: center;
 }
 
 .skills{
- color: white;
- border:3px
- solid Orange;
- padding: 25px;
- border-radius: 00px 00px 00px 00px;
+ color: #292929;
 }
 
 .project{
- color: white;
- border:3px
- solid Orange;
- padding: 25px;
- border-radius: 00px 00px 60px 00px;
+ color: #292929;
 }
 
 .con{
-color: white;
+color: #00B050;
 text-align: center;
 }
 
 .tab{
- color: white;
+ color: #00B050;
  border: 3px
- solid Orange;
+ solid #00B050;
  padding: 5px;
  margin: auto;
-
-}
 }
 
+}
 
 /*background-color:Tomato
  border-style: dotted;
  birder-width: thick;
   background-color: #5A5A5A;
+#00B050
 */
 
+@media (max-width: 480px) {
+
+    body {
+        padding: 10px 0;
+        background:linear-gradient(to bottom, purple, #292929);
+    }
+
+    img {
+            width: 150px;
+            height: 150px;
+}
+
+    .container{
+    width: 95%;
+    padding: 15px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 40px 0px 40px 0px;
+}
+    .container2{
+    width: 95%;
+    padding: 15px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 40px 0px 40px 0px;
+}
+    .container3 {
+        width: 95%;
+        padding: 15px;
+        margin: 20px auto;
+        box-sizing: border-box;
+        border-radius: 40px 0px 40px 0px;
+}
+.sub1{
+color: purple;
+}
+
+.sub2{
+color:  white;
+}
+
+
+.intro{
+ color: purple;
+ text-align: center;
+}
+
+
+.line{
+    color: white;
+}
+
+
+.about{
+ color:  purple;
+ text-align: center;
+}
+
+.skills{
+ color: #292929;
+}
+
+.project{
+ color: #292929;
+}
+
+.con{
+color:  purple;
+text-align: center;
+}
+
+.tab{
+ color:  purple;
+ border: 1.5px
+ solid  purple;
+ padding: 3px;
+ margin: auto;
+}
+}
