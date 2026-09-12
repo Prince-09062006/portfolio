@@ -8,45 +8,58 @@
 
 <div class="container">
 
+<button id="change">></button>
+<button id="dark">C/O</button>
+
 <br>
 
-<img src="Screenshot_2026-07-27-19-13-55-889_com.miui.gallery-edit.jpg" alt="profile picture">
+<img id="profile" src="Screenshot_2026-07-27-19-13-55-889_com.miui.gallery-edit.jpg" alt="profile">
+
 <h1 class="name">'Prince B'</h1>
 
 <br>
 
-<h4 class="intro"> <span class="line">|</span> B.Sc Information Technology student <span class="line">|</span> Rotaractor <span class="line">|</span> Front end Developer <span class="line">|</span>Tech Enthusiast <span class="line">|</span> </h4>
+<h4 class="intro">
+<span class="line">|</span> B.Sc Information Technology student
+<span class="line">|</span> Rotaractor
+<span class="line">|</span> Front end Developer
+<span class="line">|</span>Tech Enthusiast
+<span class="line">|</span>
+</h4>
 
-<h3 class ="sub2" ><b><u>About Me:-</b></u></h3>
-<p class="about">I am currently an ug student who loves working with computer and try things most people avoide to live life to its fulest.<br>
-I am resilent at my work so work more then my self satisfaction ,
-I am fast laner my stong holds are i am an fast analyzer and addeepter ,effective communication ,straight forward ,ready to work on any level for project success , can work with large teams and can stay calm even under pressure and  always stay optimistic
+<h3 class="sub2"><b><u>About Me:-</u></b></h3>
+<p class="about">
+I am currently an ug student who loves working with computer and try things most people avoide to live life to its fulest.<br>
+I am resilent at my work so work more then my self satisfaction,
+I am fast laner my stong holds are i am an fast analyzer and addeepter,
+effective communication, straight forward, ready to work on any level for project success,
+can work with large teams and can stay calm even under pressure and always stay optimistic
 <br><br>
 I served as an ISD for my college Rotaractor club for the year (2025 and 2026)
-worked in comunite events
-and took part in leadership programes.</p>
+worked in comunite events and took part in leadership programes.
+</p>
 
 </div>
+
 <div class="container2">
 
-<h3 class ="sub2"><b><u>Skills:-</b></u></h3>
+<h3 class="sub2"><b><u>Skills:-</u></b></h3>
 
-<ul class ="skills">
+<ul class="skills">
 <li>Programming Languages: Java, Python, C, C++<br></li>
 <li>Web Technologies: HTML, CSS, JavaScript<br></li>
 <li>Databases: MySQL<br></li>
-<li>Cloud Platforms: Google Cloud Platform (GCP)<br> </li>
+<li>Cloud Platforms: Google Cloud Platform (GCP)<br></li>
 <li>Tools: Git, GitHub, VS Code, Figma<br></li>
 <li>Operating Systems: Windows, Linux<br></li>
-<li>i am also skilled working with MS office tools ,visual studios and replit ,ai tools like gemini ,clad ,chatgpt</li>
+<li>i am also skilled working with MS office tools, visual studios and replit, ai tools like gemini, clad, chatgpt</li>
 </ul>
 
 <div class="v-line">
 
+<h3 class="sub2"><b><u>Soft Skills:-</u></b></h3>
 
-<h3 class ="sub2"><b><u>Soft Skills:-</b></u></h3>
-
-<ul class ="skills">
+<ul class="skills">
 <li>Communication</li>
 <li>Teamwork</li>
 <li>Problem Solving</li>
@@ -56,7 +69,7 @@ and took part in leadership programes.</p>
 
 </div>
 
-<h3 class ="sub2"><b><u>Projects:-</b></u></h3>
+<h3 class="sub2"><b><u>Projects:-</u></b></h3>
 
 <p class="project">
 <span class="line">|City Soul|</span>A Smart Travel Planning App<br>
@@ -66,12 +79,13 @@ Integrated weather, parking, fuel stations, and traffic data.<br>
 Added voice-based route planning and reward system.
 </p>
 
-
 </div>
+
 <div class="container3">
 
-<h1 class ="con"><u><b>Contact:-</u></b></h1>
-<table border="5" class ="tab">
+<h1 class="con"><u><b>Contact:-</b></u></h1>
+
+<table border="5" class="tab">
 <tr>
 <th>E-Mail</th>
 <td><a href="mailto:bprincebprince9@gmail.com">Click to mail</a></td>
@@ -79,22 +93,36 @@ Added voice-based route planning and reward system.
 
 <tr>
 <th>GIT HUB</th>
-<td>
-<a href="https://github.com/Prince-09062006/Prince"> Click To See project's & ReadMe</a>
-</td>
+<td><a href="https://github.com/Prince-09062006/Prince">Click To See project's & ReadMe</a></td>
 </tr>
 
 <tr>
 <th>Linkedin</th>
-<td>
-<a href="https://www.linkedin.com/in/prince-b-ba0604349" target="_blank">Click To view Profile </a>
-</td>
+<td><a href="https://www.linkedin.com/in/prince-b-ba0604349" target="_blank">Click To view Profile</a></td>
 </tr>
-
 </table>
 
-
 <br>
+
+<script>
+const dark= document.getElementById("dark");
+
+dark.addEventListener("click", function() {document.body.classList.toggle("dark-mode");});
+
+const change= document.getElementById("change");
+const profile = document.getElementById("profile");
+
+change.addEventListener("click", function() {
+    if (profile.src.includes("13fff8d5bb004fb5865e9718abf60d6f.jpg"))
+    {
+        profile.src ="Screenshot_2026-07-27-19-13-55-889_com.miui.gallery-edit.jpg";
+    }
+    else
+    {
+    profile.src ="13fff8d5bb004fb5865e9718abf60d6f.jpg";
+    }
+});
+</script>
 
 </div>
 </body>
