@@ -1,54 +1,42 @@
 body {
-  background:linear-gradient(to bottom, #00B050, #292929);
-  font-family: "Noto Serif SemiBold", Serif, SemiBold;
-     }
+    background: linear-gradient(to bottom, #00B050, #292929);
+    font-family: "Noto Serif SemiBold", Serif, SemiBold;
+}
 
-.container{
+.container {
     width: 90%;
     margin: 35px auto;
     background-color: #292929;
     padding: 25px;
-    border-radius: 90px 0px 90px 00px;
+    border-radius: 90px 0px 90px 0px;
     border-color: white;
     border-style: solid;
     border-width: thick;
-
-
 }
 
-.container2{
+.container2 {
     width: 90%;
     margin: 35px auto;
     background-color: #00B050;
     padding: 25px;
-    border-radius: 90px 0px 90px 00px;
+    border-radius: 90px 0px 90px 0px;
     border-color: #292929;
-    border-style: solid ;
+    border-style: solid;
     border-width: thick;
 }
 
-.container3{
+.container3 {
     width: 90%;
     margin: 35px auto;
     background-color: rgba(255, 255, 255, 1);
     padding: 25px;
-    border-radius: 90px 0px 90px 00px;
+    border-radius: 90px 0px 90px 0px;
     border-color: #00B050;
     border-style: solid;
     border-width: thick;
 }
 
-/*
-.v-line{
-border-left: 2px solid #000000;
-height: 100px;
-display: inline_block;
-margin 015px
-}
-
-*/
-
-img{
+img {
     width: 250px;
     height: 250px;
     display: block;
@@ -57,148 +45,83 @@ img{
     border: 4px solid white;
 }
 
-
-.name{
-    text-align:center;
-    color: white;
-
-}
-
-.sub{
-color: white;
-}
-
-.sub1{
-color: #00B050;
-}
-
-.sub2{
-color:  white;
-}
-
-
-.intro{
- color: #00B050;
- text-align: center;
-}
-
-
-.line{
+.name {
+    text-align: center;
     color: white;
 }
 
-
-.about{
- color: #00B050;
- text-align: center;
-}
-
-.skills{
- color: #292929;
-}
-
-.project{
- color: #292929;
-}
-
-.con{
-color: #00B050;
-text-align: center;
-}
-
-.tab{
- color: #00B050;
- border: 3px
- solid #00B050;
- padding: 5px;
- margin: auto;
-}
-
-}
-
-/*background-color:Tomato
- border-style: dotted;
- birder-width: thick;
-  background-color: #5A5A5A;
-#00B050
-*/
-
-@media (max-width: 480px) {
-
-    body {
-        padding: 10px 0;
-        background:linear-gradient(to bottom, purple, #292929);
-    }
-
-    img {
-            width: 150px;
-            height: 150px;
-}
-
-    .container{
-    width: 95%;
-    padding: 15px;
-    margin: 20px auto;
-    box-sizing: border-box;
-    border-radius: 40px 0px 40px 0px;
-}
-    .container2{
-    width: 95%;
-    padding: 15px;
-    margin: 20px auto;
-    box-sizing: border-box;
-    border-radius: 40px 0px 40px 0px;
-}
-    .container3 {
-        width: 95%;
-        padding: 15px;
-        margin: 20px auto;
-        box-sizing: border-box;
-        border-radius: 40px 0px 40px 0px;
-}
-.sub1{
-color: purple;
-}
-
-.sub2{
-color:  white;
-}
-
-
-.intro{
- color: purple;
- text-align: center;
-}
-
-
-.line{
+.sub {
     color: white;
 }
 
-
-.about{
- color:  purple;
- text-align: center;
+.sub1 {
+    color: #00B050;
 }
 
-.skills{
- color: #292929;
+.sub2 {
+    color: white;
 }
 
-.project{
- color: #292929;
+.intro {
+    color: #00B050;
+    text-align: center;
 }
 
-.con{
-color:  purple;
-text-align: center;
+.line {
+    color: white;
 }
 
-.tab{
- color:  purple;
- border: 1.5px
- solid  purple;
- padding: 3px;
- margin: auto;
+.about {
+    color: #00B050;
+    text-align: center;
 }
+
+.skills {
+    color: #292929;
 }
+
+.project {
+    color: #292929;
+}
+
+.con {
+    color: #00B050;
+    text-align: center;
+}
+
+.tab {
+    color: #00B050;
+    border: 3px solid #00B050;
+    padding: 5px;
+    margin: auto;
+}
+
+.dark-mode {
+    background: #292929;
+    color: white;
+}
+
+.dark-mode .container {
+    background-color: #111111;
+    border-color: #00B050;
+}
+
+.dark-mode .container2 {
+    background-color: #181818;
+    border-color: #00B050;
+}
+
+.dark-mode .container3 {
+    background-color: #111111;
+    border-color: #00B050;
+}
+
+.dark-mode .about {
+    color: #00B050;
+}
+
+.dark-mode .skills,
+.dark-mode .project {
+    color: white;
+}
+
