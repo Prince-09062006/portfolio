@@ -1,125 +1,118 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
-<head>
-<title>Prince Portfolio</title>
-<link rel="stylesheet" href="mystyle.css">
-</head>
-<body>
+    <head>
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="style.css">
 
-<div class="container">
+        <div class="container-a">
+        <div class="container1">
+            <img id="profile" src="1.jpeg" alt="Profile">
+        </div>
 
-<button id="change">></button>
-<button id="dark">C/O</button>
+        <div class="container2">
+            <p class="name">Prince</p>
+            <p class="intro">
+               <span class="line">|</span> B.Sc Information Technology student
+               <span class="line">|</span> Front end Developer
+               <span class="line">|</span> Cloud & Cybersecurity              
+               <span class="line">|</span>
+            </p>
+            <br>
+         <button class="btn"><a href="https://www.linkedin.com/in/prince-b-ba0604349" target="_blank">LinkedIn</a></button>
+         <button class="btn"><a href="https://github.com/Prince-09062006/Prince" target="_blank">GitHub</a></button>
+         <button class="btn"><a href="mailto:bprincebprince9@gmail.com">Email</a></button>
+         <button class="btn"><a href="cv.jpeg" download="">CV</a></button>
+         <button class="btn" id="change">></button>
+         </div>
+        </div>
+        <div class="container-b">
+        <div class="container3">
+            <h2>About Me</h2>
+            <p>Motivated and versatile B.Sc. Information Technology student (batch 2024–2027) with a strong interest in software development,
+web technologies, cloud computing and cybersecurity. Training in HTML, CSS, JavaScript and JSON through a Frontend Developer
+internship, with project experience in Python, SQL/MySQL and cloud security. Co-developed a cryptography, steganography and
+machine-learning framework for secure cloud storage, presented at a national and an international conference. Recognised for
+character, leadership and community involvement. Seeking internships and entry-level roles in software development, web,
+database, cloud computing or cybersecurity.</p>
+        </div>
 
+        <div class="container4">
+            <h2>Skills</h2>
+            <div class="container-d">
+            <div class="Ts">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="Ps">
+                <h3>Professional Skills</h3>
+                <ul>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                    <li>Problem Solving</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="container-c">
+        <div class="container5">
+            <h2>Projects & Papers</h2><br>Hybrid Cryptography–Steganography Framework with ML-Based Anomaly Detection for Secure Cloud Storage 
+            <br>(2026 Academic research project (co-authored) | Python)<br>
+• Combined cryptography, image steganography and machine-learning anomaly detection to protect cloud-stored data from
+external attackers and insider threats<br>
+• Co-developed a pipeline using ECDH key exchange (secp256r1), HKDF with SHA-256 and AES-256-GCM authenticated
+encryption, with DWT-based image steganography<br>
+• Evaluated Random Forest and SVM anomaly detectors on the NSL-KDD benchmark (accuracy 76.78% and 77.45%); DWT
+embedding averaged 70.07 dB PSNR over five standard test images<br>
+• Extended the evaluation with adversarial-noise robustness testing, multiclass attack classification and SHAP explainability<br>
+• Presented at LIST-2K26 (national) and ICFTDI 26 (international)<br><br>
+Vehicle Service Management Database September 2026<br>
+Academic project | MySQL, MySQL Workbench<br>
+• Designed a relational schema for customer, vehicle and service records, with additional supporting tables<br>
+• Documented the database design and implementation using a structured submission template<br><br>
+City Solus — Dream Startup Project Concept<br>
+Smart city service concept<br>
+• Designed a concept to simplify access to essential city services through a clean, centralised, user-friendly interface<br>
+        </div>
+        <div class="container6">
+            <h2>Experience & Certifications</h2><br>
+            <p>Frontend Developer Intern — Spotnack June 2026 – Present<br>
+• Training in HTML, CSS, JavaScript, JSON and web-page development<br>
+• Project details are confidential under the internship agreement<br><br>
+Remote Project Intern — IIT Kanpur, Department of Electrical Engineering February 2025<br>
+• Worked on a Sports Trivia Question-and-Answer Bot using Retrieval-Augmented Generation (RAG), completed under
+Professor Ketan Rajawat<br><br>
+Generative AI Training — Sri Krishna I-Tech and Management Solutions Private Limited August 2026
+Software Training Division, Coimbatore, Tamil Nadu<br>
+• Completed a 30-hour Certificate in Generative AI with a mini project; Grade A (certificate issued 20 August 2026)
 <br>
-
-<img id="profile" src="Screenshot_2026-07-27-19-13-55-889_com.miui.gallery-edit.jpg" alt="profile">
-
-<h1 class="name">'Prince B'</h1>
-
-<br>
-
-<h4 class="intro">
-<span class="line">|</span> B.Sc Information Technology student
-<span class="line">|</span> Rotaractor
-<span class="line">|</span> Front end Developer
-<span class="line">|</span>Tech Enthusiast
-<span class="line">|</span>
-</h4>
-
-<h3 class="sub2"><b><u>About Me:-</u></b></h3>
-<p class="about">
-I am currently an ug student who loves working with computer and try things most people avoide to live life to its fulest.<br>
-I am resilent at my work so work more then my self satisfaction,
-I am fast laner my stong holds are i am an fast analyzer and addeepter,
-effective communication, straight forward, ready to work on any level for project success,
-can work with large teams and can stay calm even under pressure and always stay optimistic
-<br><br>
-I served as an ISD for my college Rotaractor club for the year (2025 and 2026)
-worked in comunite events and took part in leadership programes.
 </p>
+        </div>
+        </div>
 
-</div>
 
-<div class="container2">
+    <script>
+        const change= document.getElementById("change");
+        const profile = document.getElementById("profile");
+        change.addEventListener("click", function() {
+            if (profile.src.includes("1.jpeg"))
+            {
+            profile.src ="3.jpeg";
+            }
+            else
+            {
+             profile.src ="a.jpeg";
+             }
+        });
+    </script>
 
-<h3 class="sub2"><b><u>Skills:-</u></b></h3>
 
-<ul class="skills">
-<li>Programming Languages: Java, Python, C, C++<br></li>
-<li>Web Technologies: HTML, CSS, JavaScript<br></li>
-<li>Databases: MySQL<br></li>
-<li>Cloud Platforms: Google Cloud Platform (GCP)<br></li>
-<li>Tools: Git, GitHub, VS Code, Figma<br></li>
-<li>Operating Systems: Windows, Linux<br></li>
-<li>i am also skilled working with MS office tools, visual studios and replit, ai tools like gemini, clad, chatgpt</li>
-</ul>
-
-<h3 class="sub2"><b><u>Soft Skills:-</u></b></h3>
-
-<ul class="skills">
-<li>Communication</li>
-<li>Teamwork</li>
-<li>Problem Solving</li>
-<li>Leadership</li>
-<li>Time Management</li>
-</ul>
-
-<h3 class="sub2"><b><u>Projects:-</u></b></h3>
-
-<p class="project">
-<span class="line">|City Soul|</span>A Smart Travel Planning App<br>
-Technologies:- HTML, CSS, JavaScript, Maps API<br>
-Developed an AI-powered trip planning application.<br>
-Integrated weather, parking, fuel stations, and traffic data.<br>
-Added voice-based route planning and reward system.
-</p>
-
-</div>
-
-<div class="container3">
-
-<h1 class="con"><u><b>Contact:-</b></u></h1>
-
-<table border="5" class="tab">
-<tr>
-<th>E-Mail</th>
-<td><a href="mailto:bprincebprince9@gmail.com">Click to mail</a></td>
-</tr>
-
-<tr>
-<th>GIT HUB</th>
-<td><a href="https://github.com/Prince-09062006/Prince">Click To See project's & ReadMe</a></td>
-</tr>
-
-<tr>
-<th>Linkedin</th>
-<td><a href="https://www.linkedin.com/in/prince-b-ba0604349" target="_blank">Click To view Profile</a></td>
-</tr>
-</table>
-
-<br>
-
-<script>
-const dark= document.getElementById("dark");
-
-dark.addEventListener("click", function() {document.body.classList.toggle("dark-mode");});
-
-const change= document.getElementById("change");
-const profile = document.getElementById("profile");
-
-change.addEventListener("click", function() {
-    if (profile.src.includes("Screenshot_2026-09-13-02-32-52-025_com.mi.android.globalFileexplorer-edit.jpg"))
-    {
-        profile.src ="Screenshot_2026-07-27-19-13-55-889_com.miui.gallery-edit.jpg";
-    }
-    else
-    {
-    profile.src ="Screenshot_2026-09-13-02-32-52-025_com.mi.android.globalFileexplorer-edit.jpg";
-    }
-});
-</script>
-
-</div>
-</body>
+    </body>
 </html>
