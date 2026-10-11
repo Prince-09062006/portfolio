@@ -4,7 +4,7 @@
         <title>My Portfolio</title>
     </head>
     <body>
-        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="style.css">
 
         <div class="container-a">
         <div class="container1">
@@ -19,12 +19,13 @@
                <span class="line">|</span> Cloud & Cybersecurity              
                <span class="line">|</span>
             </p>
-            <br>
-         <button class="btn"><a href="https://www.linkedin.com/in/prince-b-ba0604349" target="_blank">LinkedIn</a></button>
-         <button class="btn"><a href="https://github.com/Prince-09062006/Prince" target="_blank">GitHub</a></button>
-         <button class="btn"><a href="mailto:bprincebprince9@gmail.com">Email</a></button>
-         <button class="btn"><a href="cv.jpeg" download="">CV</a></button>
+            <br><p class="aa">
+         <button class="btn" type="button"  onclick="location.href='https://www.linkedin.com/in/prince-b-ba0604349'">LinkedIn</button>
+         <button class="btn" type="button"  onclick="location.href='https://github.com/Prince-09062006/Prince'">GitHub</button>
+         <button class="btn" type="button"  onclick="location.href='mailto:bprincebprince9@gmail.com'">Email</button>
+         
          <button class="btn" id="change">></button>
+         </p>
          </div>
         </div>
         <div class="container-b">
@@ -63,15 +64,10 @@ database, cloud computing or cybersecurity.</p>
 
         <div class="container-c">
         <div class="container5">
-            <h2>Projects & Papers</h2><br>Hybrid Cryptography–Steganography Framework with ML-Based Anomaly Detection for Secure Cloud Storage 
+            <h2>Projects & Papers</h2>Hybrid Cryptography–Steganography Framework with ML-Based Anomaly Detection for Secure Cloud Storage 
             <br>(2026 Academic research project (co-authored) | Python)<br>
 • Combined cryptography, image steganography and machine-learning anomaly detection to protect cloud-stored data from
 external attackers and insider threats<br>
-• Co-developed a pipeline using ECDH key exchange (secp256r1), HKDF with SHA-256 and AES-256-GCM authenticated
-encryption, with DWT-based image steganography<br>
-• Evaluated Random Forest and SVM anomaly detectors on the NSL-KDD benchmark (accuracy 76.78% and 77.45%); DWT
-embedding averaged 70.07 dB PSNR over five standard test images<br>
-• Extended the evaluation with adversarial-noise robustness testing, multiclass attack classification and SHAP explainability<br>
 • Presented at LIST-2K26 (national) and ICFTDI 26 (international)<br><br>
 Vehicle Service Management Database September 2026<br>
 Academic project | MySQL, MySQL Workbench<br>
@@ -82,7 +78,7 @@ Smart city service concept<br>
 • Designed a concept to simplify access to essential city services through a clean, centralised, user-friendly interface<br>
         </div>
         <div class="container6">
-            <h2>Experience & Certifications</h2><br>
+            <h2>Experience & Certifications</h2>
             <p>Frontend Developer Intern — Spotnack June 2026 – Present<br>
 • Training in HTML, CSS, JavaScript, JSON and web-page development<br>
 • Project details are confidential under the internship agreement<br><br>
@@ -96,15 +92,19 @@ Software Training Division, Coimbatore, Tamil Nadu<br>
 </p>
         </div>
         </div>
-
+<!--    <div class="rate">   
+    <h1>Rate my profile</h1>
+        <input type="text" id="rate" placeholder="Enter stars */5">
+        <button class="btn" id="stars">Add stars</button>
+    </div>-->
 
     <script>
         const change= document.getElementById("change");
         const profile = document.getElementById("profile");
         change.addEventListener("click", function() {
-            if (profile.src.includes("1.jpeg"))
+            if (profile.src.includes("a.jpeg"))
             {
-            profile.src ="3.jpeg";
+            profile.src ="1.jpeg";
             }
             else
             {
@@ -113,6 +113,6 @@ Software Training Division, Coimbatore, Tamil Nadu<br>
         });
     </script>
 
-
+<!--<button a href="cv.jpeg" class="btn" target="">View CV</a></button>-->
     </body>
 </html>
